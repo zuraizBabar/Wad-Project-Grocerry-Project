@@ -1,0 +1,39 @@
+.Body{
+    width: 100%;
+    text-align: center;
+    background-color: green;
+    color:black;
+    font-family: Arial,"Helvetica Neue",sans-serif;
+}
+.inp{
+    padding: 6px;
+    width: 100%;
+}
+
+.inp1{
+    padding: 30px;
+    width: 100%;
+}
+
+.button_submit
+{
+    width: 50%;
+    background-color: #4CAF50;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    padding: 12px;
+}
+
+.center
+{
+    max-width: max-content;
+    margin: auto;
+    border: solid white;
+    /*background-color: #2f4f4f;*/
+    background-image: linear-gradient(green,white);
+    width: 90%;
+    box-shadow: 11px 8px 11px 4px rgba(21, 21, 21, 0.82);
+
+}
