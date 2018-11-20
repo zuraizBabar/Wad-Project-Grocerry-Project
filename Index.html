@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hum Mart</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Index.css">
+
+
+
+</head>
+<body>
+
+<!--  NavBar Area -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-warning navbar-fixed-top"   style="padding:0px 0px 0px 0px ;margin-bottom: 0px; border-bottom: 2px solid white" >
+        <a href="Index.html"><span class="col-md-2 d-none d-lg-inline"style="padding-left: 0px;padding-right: 50px"><img src="images/logo.jpg" style="width: 75px; height: 75px" ></span></a>
+        <span class="navbar-text navbar-left d-inline " style="    color: brown; font-size:xx-large;font-family: 'Franklin Gothic Medium Cond';font-weight: bolder; padding-bottom: 0px;padding-top: 0px ; margin:0px 0px 0px 0px">
+             HumMart
+        </span>
+        <input type="text" placeholder="Search Grocery.." name="search" class="d-none d-md-inline" style="font-family:'Calibri Light';font-size: small;margin-left: 20px;border: 1px solid saddlebrown;color: sandybrown">
+        <button type="submit" class="d-none d-md-inline" style="font-size: small; border: 1px solid saddlebrown;padding-left: 2px"><i class="fa fa-search fa-sm"></i></button>
+
+        <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#collapse_target" style="padding-left:0px ;padding-right:0px;">
+            <span class="sr-only">Togggle navigation</span>
+            <div  class="fa fa-align-justify fa-2x nav navbar-right" style="opacity: 0%;color: brown;" ></div>
+        </button>
+        <div class=" collapse navbar-collapse" id="collapse_target">
+            <ul class= "nav navbar-nav navbar-right" style="border-left: 1px saddlebrown"   >
+                <li class="dropdown">
+                    <a href="Header.html" class=" dropdown-toggle fa fa-home " data-toggle="dropdown" data-target="#dropdowntarget"> Categories</a>
+                    <div class="dropdown-menu bg-warning" aria-labelledby="dropdowntarget" style="padding: 0px">
+                        <a class="dropdown-item" href="#" style="padding:0px;border-top: 1px solid saddlebrown">Fruits & Vegetable</a>
+                        <a class="dropdown-item" href="#"  style="padding:0px;border-top: 1px solid saddlebrown">Meat & SeaFood</a>
+                        <a class="dropdown-item" href="#"  style="padding:0px;border-top: 1px solid saddlebrown">Home & Kitchen</a>
+                        <a class="dropdown-item" href="#"  style="padding:0px;border-top: 1px solid saddlebrown">Personal Care</a>
+                        <a class="dropdown-item" href="#"  style="padding:0px;border-top: 1px solid saddlebrown">Grocery & Staples</a>
+                        <a class="dropdown-item" href="#"  style="padding:0px;border-top: 1px solid saddlebrown">Beverages</a>
+                    </div>
+                </li>
+                <li >
+                    <a href="#" class="fa fa-sign-in-alt" > Login</a>
+                </li>
+                <li>
+                    </i> <a href="#" class="fa fa-user"> About</a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-envelope"style="padding-right: 30px"> Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+<!--Banner Area-->
+    <div class="container-fluid con" style="padding-left: 0px;padding-right: 0px;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="border-bottom: 10px solid white">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="col-12 d-inline" style="padding-left: 0px; padding-right: 0px;">
+                        <img src="images/G.jpg" alt="Grocery" class="img-responsive">
+                    </div>
+                </div>
+                  <div class="item">
+                      <div class="col-12 d-inline" style="padding-left: 0px; padding-right: 0px">
+                          <img src="images/G1.jpg" alt="Grocery" class="img-responsive ">
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="col-12 d-inline" style="padding-left: 0px; padding-right: 0px">
+                          <img src="images/G2.jpg" alt="Grocery" class="img-responsive" >
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="col-12 d-inline" style="padding-left: 0px; padding-right: 0px">
+                          <img src="images/G3.jpg" alt="Grocery" class="img-responsive" >
+                      </div>
+                  </div>
+            </div>
+
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button" style="opacity: 50%;">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button" style="opacity: 50%">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+<!--Category Area-->
+
+<div class= " container-fluid " style="background: #f8f8f8;padding-left: 0px; padding-right: 0px;" >
+    <div class="col-12 form-inline ">
+             <h1 style="font-family: 'Droid Serif';font-size:50px ;color: saddlebrown;text-align: center"> Category </h1> <br>
+        </div>
+
+    <div class="row" style="margin-left: 0px;  margin-right: 0px;width: 100%">
+
+    <div class="col-12 col-md-6 category-list form-inline">
+        <div class="category-image">
+                <img src="images/FruitsVeg.jpg" class="pictures">
+        </div>
+            <div class="category-text form-inline">
+                   <h2 class="category-heading">
+                       Fruits & Vegetables
+                   </h2>
+                <h4 class="category-detail">
+                    Fruits, Vegetables, Cut Fresh, Spourts & herbs
+                </h4>
+            </div>
+    </div>
+
+        <div class="col-12 col-md-6 category-list form-inline">
+            <div class="category-image">
+                <img src="images/Meat.jpg" class="pictures">
+            </div>
+            <div class="category-text form-inline">
+                <h2 class="category-heading">
+                        Meat & SeaFood
+                </h2>
+                <h4 class="category-detail">
+                    Meat, Poultry, Sea Food
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-left: 0px;  margin-right: 0px;width: 100%">
+        <div class="col-12 col-md-6 category-list form-inline">
+            <div class="category-image">
+                <img src="images/HomeKitchen.jpg" class="pictures">
+            </div>
+            <div class="category-text form-inline">
+                <h2 class="category-heading">
+                    Home & Kitchen
+                </h2>
+                <h4 class="category-detail">
+                    BathroomEssentials, Cookware, KitchenTools, Accessories, DiningServings, CleaningEquipment, StorageContainers, GasStoves
+                </h4>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 category-list form-inline">
+            <div class="category-image">
+                <img src="images/PersonalCare.jpg" class="pictures">
+            </div>
+            <div class="category-text form-inline">
+                <h2 class="category-heading">
+                    Personal Care
+                </h2>
+                <h4 class="category-detail">
+
+                    Bath body, Haircare, Skincare, Oralcare, Facecare, Shavingneeds, Healt Wellness, Deos, Perfumes
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-left: 0px;  margin-right: 0px;width: 100%">
+        <div class="col-12 col-md-6 category-list form-inline">
+            <div class="category-image">
+                <img src="images/Groccery.jpg" class="pictures">
+            </div>
+            <div class="category-text form-inline">
+                <h2 class="category-heading">
+                    Grocery & Staples
+                </h2>
+                <h4 class="category-detail">
+                    Pulses, Atta, Rice, DryFruits, Oil, Ghee, Spices, Salt, Sugar, Vinegar, Dressing
+                </h4>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 category-list form-inline">
+            <div class="category-image">
+                <img src="images/Bevrages.jpg" class="pictures">
+            </div>
+            <div class="category-text form-inline">
+                <h2 class="category-heading">
+                    Beverages
+                </h2>
+                <h4 class="category-detail">
+                    SoftDrinks, Juices, Concentrates, Tea, Coffee, EnergyDrinks, Water, Milk Drinks
+                </h4>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+</body>
